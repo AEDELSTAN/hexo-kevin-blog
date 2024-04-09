@@ -4,11 +4,32 @@
   
   
   <entry>
+    <title>Markdown 语法指南</title>
+    <link href="/hexo-kevin-blog/2024/04/09/Markdown-guide/"/>
+    <url>/hexo-kevin-blog/2024/04/09/Markdown-guide/</url>
+    
+    <content type="html"><![CDATA[<h2 id="快速跳转"><a href="#快速跳转" class="headerlink" title="快速跳转"></a>快速跳转</h2><p><a href="#%E4%BD%BF%E7%94%A8%E5%8F%B7%E6%A0%87%E8%AE%B0%E6%A0%87%E9%A2%98">#标题</a>&emsp;<br><a href="#%E5%AD%97%E4%BD%93">#字体</a>&emsp;<br><a href="#%E5%88%86%E9%9A%94%E7%BA%BF">#分隔线</a>&emsp;<br><a href="#%E5%88%A0%E9%99%A4%E7%BA%BF">#删除线</a>&emsp;<br><a href="#%E4%B8%8B%E5%88%92%E7%BA%BF">#下划线</a>&emsp;<br><a href="#%E5%88%A0%E9%99%A4%E7%BA%BF">#删除线</a>&emsp;<br><a href="#%E8%84%9A%E6%B3%A8">#脚注</a>&emsp;</p><hr><h2 id="使用-号标记标题"><a href="#使用-号标记标题" class="headerlink" title="使用#号标记标题"></a>使用#号标记标题</h2><p>使用 # 号可表示 1-6 级标题</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-section"># 一级标题</span><br><br><span class="hljs-section">## 二级标题</span><br><br><span class="hljs-section">### 三级标题</span><br><br><span class="hljs-section">#### 四级标题</span><br><br><span class="hljs-section">##### 五级标题</span><br><br><span class="hljs-section">###### 六级标题</span><br></code></pre></td></tr></table></figure><hr><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>Markdown 可以使用以下几种字体：</p><blockquote><p><em>斜体文本</em> &gt; <strong>粗体文本</strong> &gt; <strong><em>粗斜体文本</em></strong></p></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-emphasis">_斜体文本_</span><br><span class="hljs-emphasis">_斜体文本_</span><br><br><span class="hljs-strong">**粗体文本**</span><br><span class="hljs-strong">**粗体文本**</span><br><br><span class="hljs-strong">**<span class="hljs-emphasis">_粗斜体文本_</span>**</span><br><span class="hljs-strong">**<span class="hljs-emphasis">_粗斜体文本_</span>**</span><br></code></pre></td></tr></table></figure><hr><h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><p>使用三个或更多个 <code>*</code>、<code>-</code> 或 <code>_</code> 可以创建分隔线</p><blockquote><hr><p>大</p><hr><p>家</p><hr><p>好</p><hr></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-section">---</span><br>---<br><br>---<br><br>---<br><br>---<br></code></pre></td></tr></table></figure><hr><h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>使用两个波浪线 <code>~~</code> 可以创建删除线</p><blockquote><p>RUNOOB.COM<br>GOOGLE.COM<br><del>BAIDU.COM</del></p></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown">RUNOOB.COM<br>GOOGLE.COM<br>~~BAIDU.COM~~<br></code></pre></td></tr></table></figure><hr><h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>下划线可以通过 HTML 的<code>&lt;u&gt;</code>标签来实现：</p><blockquote><p><u>带下划线文本</u></p></blockquote><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">u</span>&gt;</span>带下划线文本<span class="hljs-tag">&lt;/<span class="hljs-name">u</span>&gt;</span><br></code></pre></td></tr></table></figure><hr><h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>脚注是对文本的补充说明。Markdown 脚注的格式如下:</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown">[^要注明的文本]<br></code></pre></td></tr></table></figure><p>&emsp;<br>标注完后一定要记得在其他位置进行解释:</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown">[^被标记的文本]：解释内容<br></code></pre></td></tr></table></figure><p>&emsp;<br>实例：<br>该博客教程由 Kaemon[^Kaemon]编写</p><hr><h2 id="Markdown-列表"><a href="#Markdown-列表" class="headerlink" title="Markdown 列表"></a>Markdown 列表</h2><p>Markdown 支持有序列表和无序列表。<br>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记：</p><blockquote><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-bullet">-</span> 第一项<br><br><span class="hljs-bullet">*</span> 第二项<br><br><span class="hljs-bullet">-</span> 第三项<br></code></pre></td></tr></table></figure><h5 id="或者…"><a href="#或者…" class="headerlink" title="或者…"></a>或者…</h5><blockquote><ol><li>第一项</li><li>第二项</li><li>第三项</li></ol></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-bullet">1.</span> 第一项<br><span class="hljs-bullet">2.</span> 第二项<br><span class="hljs-bullet">3.</span> 第三项<br></code></pre></td></tr></table></figure><p>[^Kaemon]: 作者原英文名是 Kevin，但是有点常见了，所以改成 Kaemon</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>代码</tag>
+      
+      <tag>Markdown</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hexo的第一篇博文</title>
     <link href="/hexo-kevin-blog/2024/04/03/Hexo%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AABlog/"/>
     <url>/hexo-kevin-blog/2024/04/03/Hexo%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AABlog/</url>
     
-    <content type="html"><![CDATA[<p>你好！初次见面！</p><p>这里是我的Hexo Blog，于此同时还有更正式的Astro博客。<br>所以我会在Hexo里写一些日常的记录，更用心的博文会发布在Astro博客里！</p>]]></content>
+    <content type="html"><![CDATA[<p>你好！初次见面！</p><p>这里是我的 Hexo Blog，于此同时还有更正式的 Astro 博客。<br>所以我会在 Hexo 里写一些日常的记录，更用心的博文会发布在 Astro 博客里！</p>]]></content>
     
     
     <categories>
@@ -35,7 +56,7 @@
     <link href="/hexo-kevin-blog/2024/04/03/about-outlook/"/>
     <url>/hexo-kevin-blog/2024/04/03/about-outlook/</url>
     
-    <content type="html"><![CDATA[<p>今天想给自己创建以后要用到的较为正式的Outlook邮箱，踩了一些坑：</p><p>创建Outlook邮箱时，如果是打算进行类似 xxx.work&#x2F;life&#x2F;<a href="mailto:&#115;&#x74;&#117;&#100;&#x79;&#x40;&#x6f;&#117;&#116;&#108;&#111;&#111;&#107;&#46;&#99;&#x6f;&#109;">&#115;&#x74;&#117;&#100;&#x79;&#x40;&#x6f;&#117;&#116;&#108;&#111;&#111;&#107;&#46;&#99;&#x6f;&#109;</a> 这样的多个分类，最好在一直使用的微软账号里选择：</p><p>“编辑个人资料信息”-&gt;“添加电子邮件”-&gt;“创建一个新电子邮件地址并将其添加为别名”</p><p>虽然微软确实有 “将现有电子邮件地址添加为 Microsoft 帐户别名” 的选项，但是输入直接新建的Outlook邮箱，会提示该邮箱已被使用……</p><p>总而言之，只用在主账户里添加新别名就行了</p>]]></content>
+    <content type="html"><![CDATA[<p>今天想给自己创建以后要用到的较为正式的 Outlook 邮箱，踩了一些坑：</p><p>创建 Outlook 邮箱时，如果是打算进行类似 <code>xxx.work/life/study@outlook.com</code> 这样的多个分类，最好在一直使用的微软账号里选择：</p><p>“编辑个人资料信息”-&gt;“添加电子邮件”-&gt;“创建一个新电子邮件地址并将其添加为别名”</p><p>虽然微软确实有 “将现有电子邮件地址添加为 Microsoft 帐户别名” 的选项，但是输入直接新建的 Outlook 邮箱，会提示该邮箱已被使用……</p><p>总而言之，只用在主账户里添加新别名就行了</p>]]></content>
     
     
     <categories>
